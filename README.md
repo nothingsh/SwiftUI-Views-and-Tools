@@ -21,6 +21,7 @@ HorizontalPicker(items: [View], rowHeight: CGFloat, selected: Binding<Int>)
 
 parameter `items` could be any SwiftUI View Array, `rowHeight` defines HorizontalPicker's row height
 
+
 ## PageView
 
 <img align="left" src="Previews/PageView.gif" width=280>
