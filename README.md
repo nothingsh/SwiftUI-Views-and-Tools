@@ -23,6 +23,7 @@ parameter `items` could be any SwiftUI View Array
 
 parameter `rowHeight` defines HorizontalPicker's row height
 
+parameter `selected` is a binding integer which indicates the selected view's index
 
 ## PageView
 
