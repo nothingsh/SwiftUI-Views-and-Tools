@@ -12,6 +12,7 @@
 		77B4B86F25F0C6640017D000 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B4B86E25F0C6640017D000 /* Assets.xcassets */; };
 		77B4B87225F0C6640017D000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B4B87125F0C6640017D000 /* Preview Assets.xcassets */; };
 		77B4B87D25F0C6B60017D000 /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4B87C25F0C6B60017D000 /* HorizontalPicker.swift */; };
+		77B4B88125F10A5C0017D000 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4B88025F10A5C0017D000 /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		77B4B87125F0C6640017D000 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		77B4B87325F0C6640017D000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B4B87C25F0C6B60017D000 /* HorizontalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPicker.swift; sourceTree = "<group>"; };
+		77B4B88025F10A5C0017D000 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		77B4B86925F0C65E0017D000 /* SwiftUI Views and Tools */ = {
 			isa = PBXGroup;
 			children = (
+				77B4B88325F10A650017D000 /* PageViewController */,
 				77B4B86A25F0C65E0017D000 /* SwiftUI_Views_and_ToolsApp.swift */,
 				77B4B86C25F0C65E0017D000 /* ContentView.swift */,
 				77B4B87B25F0C6920017D000 /* Horizontal Picker */,
@@ -78,6 +81,14 @@
 				77B4B87C25F0C6B60017D000 /* HorizontalPicker.swift */,
 			);
 			path = "Horizontal Picker";
+			sourceTree = "<group>";
+		};
+		77B4B88325F10A650017D000 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				77B4B88025F10A5C0017D000 /* PageView.swift */,
+			);
+			path = PageViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B4B86D25F0C65E0017D000 /* ContentView.swift in Sources */,
+				77B4B88125F10A5C0017D000 /* PageView.swift in Sources */,
 				77B4B87D25F0C6B60017D000 /* HorizontalPicker.swift in Sources */,
 				77B4B86B25F0C65E0017D000 /* SwiftUI_Views_and_ToolsApp.swift in Sources */,
 			);

@@ -10,7 +10,7 @@ import UIKit
 
 struct HorizontalPicker<Item: View>: UIViewRepresentable {
     var items: [Item]
-    var rowWidth: CGFloat
+    var rowHeight: CGFloat
     @Binding var selected: Int
 
     func makeCoordinator() -> Coordinator {
@@ -44,7 +44,7 @@ struct HorizontalPicker<Item: View>: UIViewRepresentable {
 
         // Set row height
         func pickerView(_ pickerView: UIPickerView, rowHeightForComponent component: Int) -> CGFloat {
-            return parent.rowWidth
+            return parent.rowHeight
         }
 
         // How many rows
@@ -88,25 +88,36 @@ struct HorizontalPicker<Item: View>: UIViewRepresentable {
     }
 }
 
+// MARK: - Test
 
 struct HorizontalPickerTestView: View {
     let data = ["🍎", "🍊", "🦄", "🐼", "🎾", "😜", "😠", "🍈", "🍡", "🥚"]
+    let colors = [Color.red, Color.blue, Color.yellow, Color.purple, Color.orange]
     @State var selected = 5
+    @State var selectedColor = 2
     let length: CGFloat = 80
     
     var body: some View {
         VStack {
-            Text("Selected Index: \(selected)").font(.headline)
             HorizontalPicker(items: data.map{ Text($0).font(.system(size: length/2)) },
-                             rowWidth: length,
+                             rowHeight: length,
                              selected: $selected)
                 .frame(height: length)
                 .clipped()
-            Text("Selected Emoji: \(data[selected])").font(.headline)
+            HorizontalPicker(items: colors.map{ ItemView(color: $0) }, rowHeight: length, selected: $selectedColor)
+                .clipped()
         }
         
     }
     
+}
+
+struct ItemView: View {
+    var color: Color
+    var body: some View {
+        RoundedRectangle(cornerRadius: 20)
+            .fill(color)
+    }
 }
 
 struct HorizontalPickerTestView_Previews: PreviewProvider {
