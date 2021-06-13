@@ -27,10 +27,10 @@ parameter `selected` is a binding integer which indicates the selected view's in
 
 ## PageView
 
-<img align="left" src="Previews/PageView.gif" width=280>
+<img align="left" src="Previews/PageView.gif">
 
 
 ## Shapes
-<img align="left" src="Previews/shapes.png" width=280>
+<img align="left" src="Previews/shapes.png">
 Basic shapes draw by swiftUI
 
