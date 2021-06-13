@@ -13,6 +13,18 @@
 		77B4B87225F0C6640017D000 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77B4B87125F0C6640017D000 /* Preview Assets.xcassets */; };
 		77B4B87D25F0C6B60017D000 /* HorizontalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4B87C25F0C6B60017D000 /* HorizontalPicker.swift */; };
 		77B4B88125F10A5C0017D000 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B4B88025F10A5C0017D000 /* PageView.swift */; };
+		77FCCB6E2675A06A002A85A8 /* OctagonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB632675A06A002A85A8 /* OctagonCard.swift */; };
+		77FCCB6F2675A06A002A85A8 /* RectCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB642675A06A002A85A8 /* RectCard.swift */; };
+		77FCCB702675A06A002A85A8 /* HouseCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB652675A06A002A85A8 /* HouseCard.swift */; };
+		77FCCB712675A06A002A85A8 /* Polygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB662675A06A002A85A8 /* Polygon.swift */; };
+		77FCCB722675A06A002A85A8 /* SquareCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB672675A06A002A85A8 /* SquareCard.swift */; };
+		77FCCB732675A06A002A85A8 /* TriangleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB682675A06A002A85A8 /* TriangleCard.swift */; };
+		77FCCB742675A06A002A85A8 /* HeartCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB692675A06A002A85A8 /* HeartCard.swift */; };
+		77FCCB752675A06A002A85A8 /* CircleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB6A2675A06A002A85A8 /* CircleCard.swift */; };
+		77FCCB762675A06A002A85A8 /* ShieldCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB6B2675A06A002A85A8 /* ShieldCard.swift */; };
+		77FCCB772675A06A002A85A8 /* DiamondCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB6C2675A06A002A85A8 /* DiamondCard.swift */; };
+		77FCCB782675A06A002A85A8 /* HexagonCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB6D2675A06A002A85A8 /* HexagonCard.swift */; };
+		77FCCB7A2675A0BD002A85A8 /* Segment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FCCB792675A0BD002A85A8 /* Segment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		77B4B87325F0C6640017D000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77B4B87C25F0C6B60017D000 /* HorizontalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalPicker.swift; sourceTree = "<group>"; };
 		77B4B88025F10A5C0017D000 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		77FCCB632675A06A002A85A8 /* OctagonCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OctagonCard.swift; sourceTree = "<group>"; };
+		77FCCB642675A06A002A85A8 /* RectCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectCard.swift; sourceTree = "<group>"; };
+		77FCCB652675A06A002A85A8 /* HouseCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HouseCard.swift; sourceTree = "<group>"; };
+		77FCCB662675A06A002A85A8 /* Polygon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polygon.swift; sourceTree = "<group>"; };
+		77FCCB672675A06A002A85A8 /* SquareCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareCard.swift; sourceTree = "<group>"; };
+		77FCCB682675A06A002A85A8 /* TriangleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriangleCard.swift; sourceTree = "<group>"; };
+		77FCCB692675A06A002A85A8 /* HeartCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartCard.swift; sourceTree = "<group>"; };
+		77FCCB6A2675A06A002A85A8 /* CircleCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleCard.swift; sourceTree = "<group>"; };
+		77FCCB6B2675A06A002A85A8 /* ShieldCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShieldCard.swift; sourceTree = "<group>"; };
+		77FCCB6C2675A06A002A85A8 /* DiamondCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiamondCard.swift; sourceTree = "<group>"; };
+		77FCCB6D2675A06A002A85A8 /* HexagonCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonCard.swift; sourceTree = "<group>"; };
+		77FCCB792675A0BD002A85A8 /* Segment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +80,7 @@
 		77B4B86925F0C65E0017D000 /* SwiftUI Views and Tools */ = {
 			isa = PBXGroup;
 			children = (
+				77FCCB6226759FDE002A85A8 /* BasicShapes */,
 				77B4B88325F10A650017D000 /* PageViewController */,
 				77B4B86A25F0C65E0017D000 /* SwiftUI_Views_and_ToolsApp.swift */,
 				77B4B86C25F0C65E0017D000 /* ContentView.swift */,
@@ -89,6 +114,25 @@
 				77B4B88025F10A5C0017D000 /* PageView.swift */,
 			);
 			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		77FCCB6226759FDE002A85A8 /* BasicShapes */ = {
+			isa = PBXGroup;
+			children = (
+				77FCCB6A2675A06A002A85A8 /* CircleCard.swift */,
+				77FCCB6C2675A06A002A85A8 /* DiamondCard.swift */,
+				77FCCB692675A06A002A85A8 /* HeartCard.swift */,
+				77FCCB6D2675A06A002A85A8 /* HexagonCard.swift */,
+				77FCCB652675A06A002A85A8 /* HouseCard.swift */,
+				77FCCB632675A06A002A85A8 /* OctagonCard.swift */,
+				77FCCB662675A06A002A85A8 /* Polygon.swift */,
+				77FCCB642675A06A002A85A8 /* RectCard.swift */,
+				77FCCB6B2675A06A002A85A8 /* ShieldCard.swift */,
+				77FCCB672675A06A002A85A8 /* SquareCard.swift */,
+				77FCCB682675A06A002A85A8 /* TriangleCard.swift */,
+				77FCCB792675A0BD002A85A8 /* Segment.swift */,
+			);
+			path = BasicShapes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,10 +204,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77FCCB712675A06A002A85A8 /* Polygon.swift in Sources */,
 				77B4B86D25F0C65E0017D000 /* ContentView.swift in Sources */,
 				77B4B88125F10A5C0017D000 /* PageView.swift in Sources */,
+				77FCCB742675A06A002A85A8 /* HeartCard.swift in Sources */,
+				77FCCB6E2675A06A002A85A8 /* OctagonCard.swift in Sources */,
+				77FCCB702675A06A002A85A8 /* HouseCard.swift in Sources */,
+				77FCCB772675A06A002A85A8 /* DiamondCard.swift in Sources */,
 				77B4B87D25F0C6B60017D000 /* HorizontalPicker.swift in Sources */,
+				77FCCB762675A06A002A85A8 /* ShieldCard.swift in Sources */,
+				77FCCB782675A06A002A85A8 /* HexagonCard.swift in Sources */,
 				77B4B86B25F0C65E0017D000 /* SwiftUI_Views_and_ToolsApp.swift in Sources */,
+				77FCCB7A2675A0BD002A85A8 /* Segment.swift in Sources */,
+				77FCCB732675A06A002A85A8 /* TriangleCard.swift in Sources */,
+				77FCCB6F2675A06A002A85A8 /* RectCard.swift in Sources */,
+				77FCCB722675A06A002A85A8 /* SquareCard.swift in Sources */,
+				77FCCB752675A06A002A85A8 /* CircleCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
