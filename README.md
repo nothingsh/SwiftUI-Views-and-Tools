@@ -26,11 +26,11 @@ parameter `rowHeight` defines HorizontalPicker's row height
 parameter `selected` is a binding integer which indicates the selected view's index
 
 ## PageView
-<img align="left" src="Previews/PageView.gif" width="280">
+<img src="Previews/PageView.gif" width="280">
 
 
 ## Shapes
 Basic shapes draw by swiftUI
-<img align="left" src="Previews/shapes.png" width="280">
+<img src="Previews/shapes.png" width="280">
 
 
