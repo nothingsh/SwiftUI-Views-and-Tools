@@ -29,6 +29,8 @@ parameter `selected` is a binding integer which indicates the selected view's in
 
 <img align="left" src="Previews/PageView.gif" width=280>
 
-### How to use
 
-Drag `PageView.swift` into your project
+## Shapes
+<img align="left" src="Previews/shapes.png" width=280>
+Basic shapes draw by swiftUI
+
